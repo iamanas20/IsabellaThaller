@@ -2,7 +2,7 @@
 Isabella Thaller is a very minimal open source portfolio that utilizes HTML, CSS and JS frameworks
 
 # Get  Started
-<i>Using Microsoft Visual Studio</i>To get started, just clone the repository and open it in Visual Studio, 
+<i>Using Microsoft Visual Studio</i> To get started, just clone the repository and open it in Visual Studio, 
 fetch and pull from the server, or make your changes and push to the server.
 
 <ul>
