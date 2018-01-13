@@ -1,3 +1,75 @@
-﻿body
-{
+﻿body {
+    padding: 0px 0px 0px 0px;
+    height: 100%
+}
+
+#landingView {
+    height: 97vmin;
+    min-height: 500px;
+    width: 100%;
+    background: #fff4F0;
+}
+
+    #landingView > #header {
+        padding-top: 15px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+        #landingView > #header a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #landingView > #header > #rightNavigationLinks {
+            float: right;
+        }
+
+            #landingView > #header > #rightNavigationLinks a {
+                margin-left: 10px;
+            }
+
+    #landingView > #content {
+        margin-top: 30px;
+        position: relative;
+    }
+
+        #landingView > #content > #textContainer{
+            float: right;
+            margin-top: 30px;
+            margin-left: 55%;
+            position: absolute;
+        }
+        
+        
+        #landingView > #content > #imageContainer > img {
+            width: 40%;
+            min-width: 400px;
+            max-width: 700px;
+            max-height: 1000px;
+            margin-top: 30px;
+            margin-left: 60%;
+        }
+
+
+
+@media only screen and (max-width: 1024px) {
+    #landingView > #content > #textContainer {
+        margin-left: 25%;
+    }
+
+    #landingView > #content > #imageContainer > img {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    #landingView > #content > #textContainer {
+        margin-left: 1%;
+    }
+    
+    #landingView > #content > #imageContainer > img {
+        margin-left: 3%;
+    }
 }
